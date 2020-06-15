@@ -2,10 +2,10 @@
     <section>
         homepage
       <h2>Active Users</h2>
+
       <ul>
         <li style="display:block;" v-for="user in activeUsers">Name: {{user.name}}, Age: {{user.age}}, Date: {{ user.created_at }}</li>
       </ul>
-
     </section>
 </template>
 
